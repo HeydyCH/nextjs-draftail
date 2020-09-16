@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Editor from '../component/Editor'
+import ControlEditor from '../component/ControlEditor'
 // import "draft-js/dist/Draft.css"
 // import "draftail/dist/draftail.css"
 
@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Editor />
+          <ControlEditor />
         </div>
       </main>
 
