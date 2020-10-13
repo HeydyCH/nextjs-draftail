@@ -3,6 +3,9 @@ import Axios from "axios"
 import { DraftailEditor, BLOCK_TYPE, INLINE_STYLE, ENTITY_TYPE } from "draftail"
 // import Link from './Link'
 
+import LinkSource from '../component/LinkSource'
+import Link from '../component/Link'
+
 const initialData = {
   blocks: [
     {
@@ -18,17 +21,19 @@ const initialData = {
   entityMap: {},
 }
 
-const Link = ({ entityKey, contentState, children }) => {
-  console.log("Link")
-}
+// const Link = ({ entityKey, contentState, children }) => {
+//   console.log("Link")
+// }
 
-const LinkSource = () => {
-  // const { url } = contentState.getEntity(entityKey).getData()
-  console.log("LinkSource")
-  return null
-}
+// const LinkSource = () => {
+//   // const { url } = contentState.getEntity(entityKey).getData()
+//   console.log("LinkSource")
+//   return null
+// }
 
 const ControlEditor = () => {
+
+  console.log('ControlEditor');
 
   const [number, setNumber] = useState(0)
   const [user, setUser] = useState()
@@ -68,7 +73,6 @@ const ControlEditor = () => {
         entityTypes={[
           {
             type: ENTITY_TYPE.LINK,
-            // icon: ICON_LINK,
             icon: "icon-link",
             source: LinkSource,
             decorator: Link,

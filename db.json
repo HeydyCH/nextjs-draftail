@@ -1,0 +1,324 @@
+{
+  "interviews": [
+    {
+      "id": 1,
+      "title": "Sara Paredes: “La Pacientita N°4 fue una terapia para curarme”.",
+      "image": "https://saludconlupa.com/media/images/Peru_entrevista_Sara_interna_2_313.2e16d0ba.fill-650x450.jpg",
+      "text": "La actriz y arquitecta Sara Paredes tuvo dos hijos por cesárea atendidas con violencia en dos hospitales de Perú. Ella encontró en el teatro una forma de procesar su dolor y de ayudar a otras mujeres a contar experiencias similares.",
+      "autor": "Mayté Ciriaco",
+      "published_at": "2020-04-05 08:11:04",
+      "redirection_url": "https://saludconlupa.com/entrevistas/sara-paredes-pacientita-terapia-para-curarme/"
+    },
+    {
+      "id": 2,
+      "title": "Raquel Hurtado: “Parir de cuclillas es mejor para todas y para la economía del país”.",
+      "image": "https://saludconlupa.com/media/images/Peru_entrevista_Hurtado_portada_TZ.2e16d0ba.fill-650x450.jpg",
+      "text": "La médico e investigadora Raquel Hurtado afirma que los hospitales y clínicas desincentivan la posición vertical o de cuclillas para dar a luz pese a que es más beneficiosa para todas y para la economía de un país.",
+      "autor": "Fabiola Torres",
+      "published_at": "2020-05-05 07:36:51",
+      "redirection_url": "https://saludconlupa.com/entrevistas/raquel-hurtado-parir-cuclillas-mejor-paratodas-para-economia-pais/"
+    },
+    {
+      "id": 3,
+      "title": "Antonio Lévano: “El monitor fetal aumentó el número de cesáreas”.",
+      "image": "https://saludconlupa.com/media/images/Peru_entrevista_doctor_portada_BN.2e16d0ba.fill-650x450.jpg",
+      "text": "El médico Antonio Levano, defensor del parto natural en el Perú, explica cómo ha evolucionado la atención de los nacimientos y las resistencias que deben vencerse para devolverles a las mujeres el protagonismo de ese momento.",
+      "autor": "Mayté Ciriaco y Fabiola Torres",
+      "published_at": "2020-05-05 09:18:30",
+      "redirection_url": "https://saludconlupa.com/entrevistas/antonio-levano-monitor-fetal-aument-nmero-cesareas/"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "title": "¿Son mas eficientes las mamografias 3D que los convencionales?",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+      "autor": "Mayté Ciriaco",
+      "published_at": "2020-04-05 08:11:04",
+      "state": "Pendiente",
+      "img": "https://i.ibb.co/3C91src/banner-question.png",
+      "tags": [
+        {
+          "id": 1,
+          "text": "Azucar"
+        },
+        {
+          "id": 2,
+          "text": "Edulcorantes"
+        }
+      ],
+      "contributions": [
+        {
+          "id": 1,
+          "state": "Aprobado",
+          "text": "texto 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 1,
+          "files": [
+            {
+              "id": 1,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 1"
+            },
+            {
+              "id": 2,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "state": "Pendiente",
+          "text": "texto 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 2,
+          "files": [
+            {
+              "id": 3,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 3"
+            },
+            {
+              "id": 4,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "¿Las gaseosas light son una opción menos dañina para las personas que quieren cuidar su salud?",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero mas texto de prueba mas texto de prueba mas texto de prueba.",
+      "autor": "Mayté Ciriaco",
+      "published_at": "2020-04-05 08:11:04",
+      "state": "Aprobado",
+      "img": "https://png.pngtree.com/thumb_back/fw800/back_pic/04/56/01/895864f9ce563d5.jpg",
+      "tags": [
+        {
+          "id": 1,
+          "text": "Azucar"
+        },
+        {
+          "id": 2,
+          "text": "Edulcorantes"
+        }
+      ],
+      "contributions": [
+        {
+          "id": 3,
+          "state": "Aprobado",
+          "text": "texto3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 1,
+          "files": [
+            {
+              "id": 5,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 5"
+            },
+            {
+              "id": 6,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "¿Existe evidencia sobre algún alimento que prevenga el cáncer?",
+      "textaux": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+      "autor": "Mayté Ciriaco",
+      "published_at": "2020-04-05 08:11:04",
+      "state": "Pendiente",
+      "img": "https://i.pinimg.com/originals/89/98/8f/89988f633511d3ac2858db45bfca4c2c.jpg",
+      "tags": [
+        {
+          "id": 1,
+          "text": "Azucar"
+        },
+        {
+          "id": 2,
+          "text": "Edulcorantes"
+        }
+      ],
+      "contributions": [
+        {
+          "id": 4,
+          "state": "Pendiente",
+          "text": "texto4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 1,
+          "files": [
+            {
+              "id": 7,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 7"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "state": "Aprobado",
+          "text": "texto5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 3,
+          "files": [
+            {
+              "id": 8,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 8"
+            },
+            {
+              "id": 9,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 9"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "state": "Aprobado",
+          "text": "texto6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates iure corporis dolorem voluptatum ipsa quidem repellendus omnis ratione obcaecati culpa tempora ipsam dolores, unde deleniti pariatur ullam provident libero.",
+          "userId": 4,
+          "files": [
+            {
+              "id": 10,
+              "ulr": "https://heydych.github.io/files/R_for_dummies.pdf",
+              "name": "Documentacion nro 10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "files": [
+        {
+          "url": "https://www.tutorialspoint.com/d3js/d3js_selections.htm",
+          "name": "Link D3"
+        }
+      ],
+      "state": "Pendiente",
+      "userId": 1,
+      "text": "<p><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum voluptatem aliquam repellendus, exercitationem adipisci aspernatur error tenetur tempore animi optio totam, impedit dolorem necessitatibus deleniti nihil inventore est vero sequi?</strong></p><hr/><p><em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum voluptatem aliquam repellendus, exercitationem adipisci aspernatur error tenetur tempore animi optio totam, impedit dolorem necessitatibus deleniti nihil inventore est vero sequi?</em></p><h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum voluptatem aliquam repellendus, exercitationem adipisci aspernatur error tenetur tempore animi optio totam, impedit dolorem necessitatibus deleniti nihil inventore est vero sequi?</h3>",
+      "id": 1
+    },
+    {
+      "files": [
+        {
+          "name": "Prueba gist",
+          "url": "https://gist.github.com/HeydyCH"
+        },
+        {
+          "url": "https://www.youtube.com/?hl=es-419&gl=PE",
+          "name": "Youtube"
+        }
+      ],
+      "state": "Pendiente",
+      "userId": 1,
+      "text": "<h3><strong><em>Prueba de contributions</em></strong></h3>",
+      "id": 2
+    },
+    {
+      "state": "Pendiente",
+      "userId": 1,
+      "text": "<p><strong>Ejemplo2</strong></p>",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Josh Gardner Gonzales CH",
+      "profession": "Médico oncólogo",
+      "imagen": "https://saludconlupa.com/media/images/Jason_J0A8164_copy_jGO4jQa.original.jpg",
+      "bio_user": "i am skrull",
+      "bio": "<p><strong>Josh Gardner QQQQQQQQQ</strong></p>",
+      "linkedin_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "twitter_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "facebook_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "nro_aportes": 5
+    },
+    {
+      "id": 2,
+      "first_name": "Sofía Gonzales",
+      "profession": "Periodista",
+      "imagen": "https://saludconlupa.com/media/images/photo_2019-06-29_18-00-18.original.jpg",
+      "bio_user": "hola sobre mi",
+      "bio": "<p><strong>Sofía Gonzales WWWWWWWWWWWWW</strong></p>",
+      "linkedin_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "twitter_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "facebook_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "nro_aportes": 2
+    },
+    {
+      "id": 3,
+      "first_name": "Mayumy",
+      "profession": "Historiadora",
+      "bio_user": "hola sobre mi",
+      "bio": "<p><strong>Mayumy GGGGGGGGGGGG</strong></p>",
+      "imagen": "https://saludconlupa.com/media/images/photo_2019-06-29_18-00-18.original.jpg",
+      "linkedin_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "twitter_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "facebook_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "nro_aportes": 3
+    },
+    {
+      "id": 4,
+      "first_name": "Jason",
+      "profession": "Consultor de Marketing Marketing Marketing ",
+      "imagen": "https://saludconlupa.com/media/images/Jason_J0A8164_copy_jGO4jQa.original.jpg",
+      "bio_user": "hola sobre mi",
+      "bio": "88888888888888",
+      "linkedin_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "twitter_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "facebook_account": "https://github.com/rhaegarcode/redux-crud/tree/master/src/componentes",
+      "nro_aportes": 4
+    }
+  ],
+  "usersDraftail": [
+    {
+      "id": 1,
+      "first_name": "Josh Gardner",
+      "bio_user": "i am skrull",
+      "bio": "<p><strong>Josh Gardner QQQQQQQQQ</strong></p>",
+      "bio_text": {
+        "blocks": [
+          {
+            "key": "860kj",
+            "text": "Lorem ipsum dolor, sit amet consectetur",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [
+              {
+                "offset": 0,
+                "length": 39,
+                "style": "BOLD"
+              }
+            ],
+            "entityRanges": [],
+            "data": {}
+          },
+          {
+            "key": "3dep0",
+            "text": "Lorem ipsum dolor, sit amet consectetur",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [
+              {
+                "offset": 0,
+                "length": 39,
+                "style": "ITALIC"
+              }
+            ],
+            "entityRanges": [],
+            "data": {}
+          }
+        ],
+        "entityMap": {}
+      }
+    }
+  ]
+}

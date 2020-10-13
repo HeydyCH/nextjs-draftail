@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.4.3",
+    "axios": "^0.19.2",
     "draft-js": "^0.10.5",
     "draft-js-inline-toolbar-plugin": "^3.0.1",
     "draft-js-side-toolbar-plugin": "^3.0.2",
@@ -15,6 +17,7 @@
     "next": "9.5.2",
     "next-seo": "^4.7.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2"
   }
 }
