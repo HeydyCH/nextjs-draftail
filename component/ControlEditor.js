@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Axios from "axios"
-import { DraftailEditor, BLOCK_TYPE, INLINE_STYLE, ENTITY_TYPE } from "draftail"
-// import Link from './Link'
+import {
+  DraftailEditor,
+  BLOCK_TYPE,
+  INLINE_STYLE,
+  ENTITY_TYPE
+} from "draftail";
 
-import LinkSource from '../component/LinkSource'
-import Link from '../component/Link'
+import LinkSource from './helper/LinkSource'
+import Link from './helper/Link'
 
 const initialData = {
   blocks: [
@@ -20,16 +24,6 @@ const initialData = {
   ],
   entityMap: {},
 }
-
-// const Link = ({ entityKey, contentState, children }) => {
-//   console.log("Link")
-// }
-
-// const LinkSource = () => {
-//   // const { url } = contentState.getEntity(entityKey).getData()
-//   console.log("LinkSource")
-//   return null
-// }
 
 const ControlEditor = () => {
 
@@ -47,7 +41,6 @@ const ControlEditor = () => {
     setNumber(number + 1)
   }, [])
 
-  // if (number == 0) return (
   if (!user) return (
     <div>
       no user
@@ -55,16 +48,14 @@ const ControlEditor = () => {
   )
 
   return (
-    <div>
-      {/* {
-        JSON.stringify(user)
-      } */}
+    <div className="App">
+      <h2 className="heading">Draftail Example</h2>
       <DraftailEditor
         rawContentState={user || null}
         // onSave={onSave}
         blockTypes={[
           { type: BLOCK_TYPE.HEADER_THREE },
-          { type: BLOCK_TYPE.UNORDERED_LIST_ITEM },
+          { type: BLOCK_TYPE.UNORDERED_LIST_ITEM }
         ]}
         inlineStyles={[
           { type: INLINE_STYLE.BOLD },
@@ -73,18 +64,13 @@ const ControlEditor = () => {
         entityTypes={[
           {
             type: ENTITY_TYPE.LINK,
-            icon: "icon-link",
             source: LinkSource,
-            decorator: Link,
-            attributes: ["url"],
-            whitelist: {
-              href: "^(?![#/])",
-            },
+            decorator: Link
           }
         ]}
       />
     </div>
-  )
+  );
 }
 
 export default ControlEditor

@@ -35,6 +35,7 @@
   align-items: center;
 }
 
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -55,6 +56,7 @@
 .title,
 .description {
   text-align: center;
+  background-color: cadetblue;
 }
 
 .description {

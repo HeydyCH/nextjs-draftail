@@ -14,3 +14,137 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+/* // draftail */
+
+.LinkSource {
+  padding: 1rem;
+}
+
+
+.Modal {
+  position: absolute;
+  left: 50%;
+  top: 45vh;
+  min-width: 320px;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+  animation: modal-in 0.2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s backwards;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.Tooltip {
+  position: absolute;
+  padding: 0.625rem;
+  background-color: #333;
+  color: #fff;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+.Tooltip::before {
+  content: "";
+  position: absolute;
+  border: 15px solid transparent;
+}
+
+.Tooltip--top {
+  margin-top: 25px;
+  transform: translateX(-50%);
+}
+
+.Tooltip--top::before {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: #333;
+}
+
+.Tooltip--left {
+  margin-left: 25px;
+  transform: translateY(-50%);
+}
+
+.Tooltip--left::before {
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  border-right-color: #333;
+}
+
+.Tooltip--top-left {
+  margin-top: 25px;
+}
+
+.Tooltip--top-left::before {
+  bottom: 100%;
+  left: 25px;
+  border-bottom-color: #333;
+}
+
+.Tooltip__link {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.Tooltip__button {
+  appearance: none;
+  background: #808080;
+  color: #fff;
+  padding: 0.5rem 0.25rem;
+  border: 0;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.Tooltip__button+.Tooltip__button {
+  margin-left: 0.5rem;
+}
+
+
+
+.TooltipEntity {
+  cursor: pointer;
+}
+
+.TooltipEntity__icon {
+  color: #43b1b0;
+  margin-right: 0.2em;
+  width: 1em;
+  height: 1em;
+}
+
+.TooltipEntity__text {
+  background: #eef8ff;
+  border-bottom: 1px dotted #43b1b0;
+}
+
+
+.TooltipEntity {
+  cursor: pointer;
+}
+
+.TooltipEntity__icon {
+  color: #43b1b0;
+  margin-right: 0.2em;
+  width: 1em;
+  height: 1em;
+}
+
+.TooltipEntity__text {
+  background: #eef8ff;
+  border-bottom: 1px dotted #43b1b0;
+}
